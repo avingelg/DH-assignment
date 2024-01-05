@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interactive Map</title>
+    <!-- Include Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <!-- Add CSS for Map Styling -->
+    <style>
+        #map { height: 500px; }
+        .title { text-align: center; margin-top: 20px; font-size: 40px; font-weight: bold; background-color: lightblue}
+        .description { text-align: center; margin-bottom: 20px; font-size: 16px; }
+    </style>
+</head>
+<body>
+    <div class="title">KADOC journals: mapped</div>
+    <div class="description">This map displays the journals from the KADOC dataset. Created by: Annamaria Van Ingelgem</div>
+    <div id="map"></div>
+    <!-- Include Leaflet JavaScript -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <!-- Your JavaScript Code for Map Initialization -->
+    <script src="script.js"></script>
+</body>
+</html>
